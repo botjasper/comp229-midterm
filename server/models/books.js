@@ -4,7 +4,7 @@ let mongoose = require('mongoose');
 let Book = mongoose.Schema({
     Title: String,
     Description: String,
-    Price: Number,
+    Price: String,
     Author: String,
     Genre: String
 },
